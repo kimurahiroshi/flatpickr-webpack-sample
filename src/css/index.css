@@ -1,0 +1,9 @@
+p {
+  color: blue;
+  font-size: 25px;
+}
+
+/* inputの大きさを大きくする */
+input {
+  font-size: 1.5rem;
+}

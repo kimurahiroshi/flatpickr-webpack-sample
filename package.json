@@ -1,0 +1,32 @@
+{
+  "name": "flatpikr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "build": "npx webpack",
+    "watch": "npx webpack --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jquery": "^3.5.6",
+    "flatpickr": "^4.6.9",
+    "jquery": "^3.6.0",
+    "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.3.0",
+    "css-loader": "^5.2.6",
+    "mini-css-extract-plugin": "^2.1.0",
+    "postcss": "^8.3.5",
+    "postcss-loader": "^6.1.1",
+    "style-loader": "^3.0.0",
+    "ts-loader": "^9.2.3",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-fix-style-only-entries": "^0.6.1"
+  }
+}
